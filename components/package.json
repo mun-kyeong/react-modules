@@ -1,6 +1,6 @@
 {
   "name": "compoents-modal-test-kangoll",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "npm modules",
   "type": "module",
   "main": "dist/index.cjs",
@@ -27,10 +27,14 @@
     "build-storybook": "storybook build"
   },
   "peerDependencies": {
-    "react": "^17 || ^18 || ^19",
-    "react-dom": "^17 || ^18 || ^19"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
     "@chromatic-com/storybook": "^3.2.6",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
@@ -42,8 +46,6 @@
     "@storybook/test": "^8.6.12",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
-    "@types/react": "^19.1.1",
-    "@types/react-dom": "^19.1.2",
     "@typescript-eslint/eslint-plugin": "^8.29.1",
     "@typescript-eslint/parser": "^8.29.1",
     "@vitejs/plugin-react-swc": "^3.8.1",
@@ -58,8 +60,5 @@
     "vite": "^6.2.6",
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-dts": "^4.5.3"
-  },
-  "dependencies": {
-    "compoents-modal-test-kangoll": "^0.0.21"
   }
 }

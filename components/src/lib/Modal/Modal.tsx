@@ -5,6 +5,9 @@ import { ModalContext } from "../ModalContext";
 import { useRef } from "react";
 import useFocusTrap from "../../hooks/useFocusTrap";
 
+// import ModalContent from "./ModalContent/ModalContent";
+// import ModalFooter from "./ModalFooter/ModalFooter";
+import ModalHeader from "../ModalHeader/ModalHeader";
 export interface ModalComponentProps {
   position: "bottom" | "center";
   isOpen: boolean;
