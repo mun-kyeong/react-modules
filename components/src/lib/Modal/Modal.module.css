@@ -32,6 +32,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #00000059;
+  z-index: 9999;
 }
 
 .modalContents {
