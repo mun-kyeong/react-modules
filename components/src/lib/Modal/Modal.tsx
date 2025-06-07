@@ -1,9 +1,9 @@
 import { createPortal } from "react-dom";
-import { useKeyPress } from "../../hooks/useKeyPress";
+import { useKeyPress } from "../hooks/useKeyPress";
 import styles from "./Modal.module.css";
 import { ModalContext } from "../ModalContext";
 import { useRef } from "react";
-import useFocusTrap from "../../hooks/useFocusTrap";
+import useFocusTrap from "../hooks/useFocusTrap";
 
 // import ModalContent from "./ModalContent/ModalContent";
 // import ModalFooter from "./ModalFooter/ModalFooter";
